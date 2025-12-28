@@ -1,1 +1,72 @@
+- Data Ingestion
+- Data Type Check
+- Data validation (date (dag, maand, jaar)
+- Identify and remove duplicates
+- Data Enrichment (aantal werknemers per state per maand)
+- Missing Data (voor en na aggregatie) --> per sector and per state
 
+- State en sector selection --> Inspect missing data per sector and per state
+
+- Data Aggregation --> per week
+
+- target variable (1 week/month/quarter in advance) --> Watch out for leakage
+
+- Feature Engineering --> Watch out for leakage 
+	data_time
+	lagged, rolling features
+
+
+- Feature Selection --> Also based on missing data
+
+
+
+- One-hot Encodig
+- Sorting and indexing 
+- split data set (test, train)
+- Data Type Check
+- Normalize based on (inwoners per staat per maand gejoind --> zie enrichment) --> apply to features
+- Robust Z score normalization group by 
+
+
+- Base / Dummy Model
+
+- Cross validation
+
+Quality metrics use robust metrics such as MAPE
+
+
+
+
+
+
+- EDA (voor en na data transformatie)
+- Distribution
+- Linearity
+- Correlation
+
+
+
+- Residuals
+- cross validation
+
+zwakke learners / predictors
+learning based on residuals
+non-linearity
+auo-feature interaction (correlation)
+overfitting
+cope with outliers and missing data
+state of the art proven performance in several domains
+speed is not really an issue
+
+
+
+Reproducibility
+- Hardware (laptop met cpu, gpu, memory)
+- Github
+- Vs Code (versie)
+- Python versie 
+- Libraries
+--> Docker container
+
+
+wienandomta@gmail.com
